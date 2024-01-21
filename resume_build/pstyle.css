@@ -1,0 +1,44 @@
+div
+{  
+color:rgba(241, 238, 243, 0.885);
+   background-color: rgba(149, 97, 7, 0.859);
+   height: 36px;
+   font-size:15px;
+   border: 2px solid black;
+   
+}
+table,tr,td,th
+{
+   border-width: 1px;
+   border-color: black;
+   border-style: solid;
+   text-align: center;
+}
+tr:hover{
+    background-color: rgb(55, 17, 227);
+    color:rgb(227, 225, 224);
+}
+tr:active{
+    background-color: rgb(43, 188, 50);
+    color:rgb(178, 80, 31);
+}
+#quality
+{   
+    color:rgb(243, 242, 237);
+    background-color: rgba(160, 104, 8, 0.859);
+    height: 25px;
+    font-size:18px;
+}
+img{
+    height:150px;
+    width:120px;
+    border-radius: 5%;
+    
+}
+
+footer {
+    background-color:  rgba(160, 104, 8, 0.859);
+    color: #fff;
+    text-align: center;
+    padding: 7px ;
+}

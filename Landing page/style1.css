@@ -1,0 +1,54 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    color: #4A4A4A;
+    }
+#logo
+{
+   font-size: 25px;
+   color: rgb(226, 17, 115);
+}
+#navbar
+{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+a
+{
+  margin-right: 210px;
+  text-decoration: none;
+}
+
+#image
+{
+    height: 500px;
+    width: 100%;
+  
+}
+
+a:hover
+{
+    background-color: rgb(238, 98, 10) ;
+    color: rgb(216, 219, 227);
+    font-size: 20px;
+    border-radius: 40%;
+    
+}
+p:hover
+{
+    background-color: rgb(65, 189, 227) ;
+    color: rgb(230, 16, 16);
+   
+}
+h2{
+    background-color: rgb(218, 91, 17);
+    color: aliceblue;
+}
+#logo:hover{
+      
+    background-color: rgb(228, 36, 36);
+    color: white;
+    font-size:30px ;
+    border-radius: 30%;
+}

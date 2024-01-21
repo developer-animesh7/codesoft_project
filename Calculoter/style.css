@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 10;
+    font-family: Arial, sans-serif;
+    
+}
+
+.calculator {
+    width: 300px;
+    border: 3px solid #070219;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+#display {
+    width: 100%;
+    padding: 15px;
+    font-size: 30px;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    border: none;
+    padding: 15px;
+    font-size: 23px;
+    cursor: pointer;
+    background-color: #a3ec25;
+}
+
+button:active {
+    background-color: #0c22e7;
+    border-radius: 15%;
+    color: white;
+}
